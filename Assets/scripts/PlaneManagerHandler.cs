@@ -5,8 +5,8 @@ using UnityEngine.XR.Interaction.Toolkit.AR;
 public class ARObjectManager : MonoBehaviour
 {
     public ARPlaneManager arPlaneManager;  // Reference to the ARPlaneManager
-    public GameObject objectPrefab;        // The prefab to spawn
-    public ARRaycastManager arRaycastManager;
+    //public GameObject objectPrefab;        // The prefab to spawn
+    //public ARRaycastManager arRaycastManager;
     public ARPlacementInteractable placementInteractable;
     private bool objectPlaced = false;     // Flag to track if object is already placed
 
@@ -30,7 +30,7 @@ public class ARObjectManager : MonoBehaviour
 
         // Spawn the object at the AR hit point (you could get this from your Raycast manager or touch input)
         Vector3 spawnPosition = new Vector3(0, 0, 0); // Example position, replace with your logic
-        Instantiate(objectPrefab, spawnPosition, Quaternion.identity);
+        //Instantiate(objectPrefab, spawnPosition, Quaternion.identity);
 
 
         // Disable plane detection
