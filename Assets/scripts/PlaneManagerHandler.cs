@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.Interaction.Toolkit.AR;
 
@@ -6,6 +7,7 @@ public class ARObjectManager : MonoBehaviour
 {
     public ARPlaneManager arPlaneManager;  // Reference to the ARPlaneManager
     //public GameObject objectPrefab;        // The prefab to spawn
+    public Button showBonesButton;     // Referenz zu deinem Button
     //public ARRaycastManager arRaycastManager;
     public ARPlacementInteractable placementInteractable;
     private bool objectPlaced = false;     // Flag to track if object is already placed
@@ -18,9 +20,11 @@ public class ARObjectManager : MonoBehaviour
             arPlaneManager = FindObjectOfType<ARPlaneManager>();
         }
         placementInteractable.objectPlaced.AddListener(OnObjectPlaced);
+        //code for button noch being visible at first
+
     }
 
-    // Call this method when an object is placed
+    // This method is called when object is placed
     public void OnObjectPlaced(ARObjectPlacementEventArgs args)
     {
         if (objectPlaced)
@@ -28,14 +32,14 @@ public class ARObjectManager : MonoBehaviour
 
         objectPlaced = true;
 
-        // Spawn the object at the AR hit point (you could get this from your Raycast manager or touch input)
-        Vector3 spawnPosition = new Vector3(0, 0, 0); // Example position, replace with your logic
+
+        //Vector3 spawnPosition = new Vector3(0, 0, 0); // Example position, replace with your logic
         //Instantiate(objectPrefab, spawnPosition, Quaternion.identity);
 
 
         // Disable plane detection
         DisablePlaneDetection();
-        placementInteractable.placementPrefab = null;
+        placementInteractable.enabled = false;
 
     }
 
@@ -57,9 +61,9 @@ public class ARObjectManager : MonoBehaviour
             plane.gameObject.SetActive(false); // Hide the planes
         }
 
-        // Optionally: You can also stop the ARRaycastManager from detecting new planes as well
-        // For example, if you're using it for interaction with the spawned object.
-        //arRaycastManager.enabled = false; // Disables raycasting
+
     }
+
+
 
 }

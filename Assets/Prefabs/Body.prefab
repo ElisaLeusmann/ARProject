@@ -9,12 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4465608676753159709}
-  - component: {fileID: 7391262672485542307}
-  - component: {fileID: 5207692510244399885}
-  - component: {fileID: 7072982657836769879}
-  - component: {fileID: 2736133292449036554}
   - component: {fileID: 8590842855197066446}
+  - component: {fileID: 5907585577127087832}
   - component: {fileID: 5618789934090160625}
+  - component: {fileID: 3790011613544552139}
+  - component: {fileID: 7653141001508348184}
+  - component: {fileID: -8336717719011239233}
+  - component: {fileID: -3472474439341962961}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -30,447 +31,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5945863818589745951}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.037389517, y: 0.116876274, z: 0.94525063, w: 0.302396}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4943715510011788502}
+  - {fileID: 8055050057193695761}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7391262672485542307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5945863818589745951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c670bfa55d621474ea22ff77c1820163, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
-  m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_InteractionLayers:
-    m_Bits: 4294967295
-  m_DistanceCalculationMode: 1
-  m_SelectMode: 0
-  m_FocusMode: 1
-  m_CustomReticle: {fileID: 0}
-  m_AllowGazeInteraction: 0
-  m_AllowGazeSelect: 0
-  m_OverrideGazeTimeToSelect: 0
-  m_GazeTimeToSelect: 0.5
-  m_OverrideTimeToAutoDeselectGaze: 0
-  m_TimeToAutoDeselectGaze: 3
-  m_AllowGazeAssistance: 0
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstFocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastFocusExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_StartingHoverFilters: []
-  m_StartingSelectFilters: []
-  m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_XROrigin: {fileID: 0}
-  m_ExcludeUITouches: 1
-  m_ARSessionOrigin: {fileID: 0}
-  m_SelectionVisualization: {fileID: 0}
---- !u!114 &5207692510244399885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5945863818589745951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddf6f41d7b58d4144a887c52ce97c699, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
-  m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_InteractionLayers:
-    m_Bits: 4294967295
-  m_DistanceCalculationMode: 1
-  m_SelectMode: 0
-  m_FocusMode: 1
-  m_CustomReticle: {fileID: 0}
-  m_AllowGazeInteraction: 0
-  m_AllowGazeSelect: 0
-  m_OverrideGazeTimeToSelect: 0
-  m_GazeTimeToSelect: 0.5
-  m_OverrideTimeToAutoDeselectGaze: 0
-  m_TimeToAutoDeselectGaze: 3
-  m_AllowGazeAssistance: 0
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstFocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastFocusExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_StartingHoverFilters: []
-  m_StartingSelectFilters: []
-  m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_XROrigin: {fileID: 0}
-  m_ExcludeUITouches: 1
-  m_ARSessionOrigin: {fileID: 0}
-  m_ObjectGestureTranslationMode: 2
-  m_MaxTranslationDistance: 10
-  m_FallbackLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
---- !u!114 &7072982657836769879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5945863818589745951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6266a2729abc4d18a676c7c2bd1c0ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
-  m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_InteractionLayers:
-    m_Bits: 4294967295
-  m_DistanceCalculationMode: 1
-  m_SelectMode: 0
-  m_FocusMode: 1
-  m_CustomReticle: {fileID: 0}
-  m_AllowGazeInteraction: 0
-  m_AllowGazeSelect: 0
-  m_OverrideGazeTimeToSelect: 0
-  m_GazeTimeToSelect: 0.5
-  m_OverrideTimeToAutoDeselectGaze: 0
-  m_TimeToAutoDeselectGaze: 3
-  m_AllowGazeAssistance: 0
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstFocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastFocusExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_StartingHoverFilters: []
-  m_StartingSelectFilters: []
-  m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_XROrigin: {fileID: 0}
-  m_ExcludeUITouches: 1
-  m_ARSessionOrigin: {fileID: 0}
-  m_RotationRateDegreesDrag: 100
-  m_RotationRateDegreesTwist: 2.5
---- !u!114 &2736133292449036554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5945863818589745951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bd997ad0c1d2434f95bde472c2f2232, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
-  m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_InteractionLayers:
-    m_Bits: 4294967295
-  m_DistanceCalculationMode: 1
-  m_SelectMode: 0
-  m_FocusMode: 1
-  m_CustomReticle: {fileID: 0}
-  m_AllowGazeInteraction: 0
-  m_AllowGazeSelect: 0
-  m_OverrideGazeTimeToSelect: 0
-  m_GazeTimeToSelect: 0.5
-  m_OverrideTimeToAutoDeselectGaze: 0
-  m_TimeToAutoDeselectGaze: 3
-  m_AllowGazeAssistance: 0
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstFocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastFocusExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_StartingHoverFilters: []
-  m_StartingSelectFilters: []
-  m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_XROrigin: {fileID: 0}
-  m_ExcludeUITouches: 1
-  m_ARSessionOrigin: {fileID: 0}
-  m_MinScale: 0.2
-  m_MaxScale: 1.75
-  m_ElasticRatioLimit: 0
-  m_Sensitivity: 0.75
-  m_Elasticity: 0.15
+  m_LocalEulerAnglesHint: {x: -14.097, y: 0, z: 144.52}
 --- !u!65 &8590842855197066446
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -492,6 +61,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5907585577127087832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5945863818589745951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670c2dbdbc85ee0429702b1d8285c2bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementInteractable: {fileID: 0}
+  b_skeleton: {fileID: 0}
+  b_organs: {fileID: 0}
+  b_blood: {fileID: 0}
+  b_full: {fileID: 0}
 --- !u!114 &5618789934090160625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,6 +91,231 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 5945863818589745951}
+--- !u!114 &3790011613544552139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5945863818589745951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 2
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  relative: 0
+  sensitivity: 1
+  damping: -1
+  remainingScale: {x: 0, y: 0, z: 0}
+--- !u!114 &7653141001508348184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5945863818589745951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d72cc6210cb7144a24acb7402222a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  relative: 0
+  damping: -1
+  remainingTranslation: {x: 0, y: 0, z: 0}
+  remainingRotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &-8336717719011239233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5945863818589745951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  sensitivity: 1
+  damping: -1
+  inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
+--- !u!108 &-3472474439341962961
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5945863818589745951}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 3
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 175.44075
+  m_InnerSpotAngle: 1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.659
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 3.96
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 1
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 0.52500767, y: 0.7384671}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &7001041874455989965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8055050057193695761}
+  - component: {fileID: 6853005659122031262}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8055050057193695761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7001041874455989965}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.5, y: -4.79, z: 19.88}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4465608676753159709}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &6853005659122031262
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7001041874455989965}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.99581003, b: 0.6084906, a: 1}
+  m_Intensity: 0.8
+  m_Range: 23.272247
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.806
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &946536236354466962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -513,6 +324,294 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4465608676753159709}
     m_Modifications:
+    - target: {fileID: -9180706845537175853, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -9180706845537175853, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -8940412035542997596, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8940412035542997596, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -8510365413506043123, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8510365413506043123, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -8228360209941137140, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8228360209941137140, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -7960472465430205364, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7960472465430205364, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -7914991074179456562, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7914991074179456562, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -7839326930463296626, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7839326930463296626, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -7654248827433249825, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7654248827433249825, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -7422925878571032325, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7422925878571032325, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -7374316474261264974, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7374316474261264974, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -7296660288344460497, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7296660288344460497, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -7087067978564997199, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7087067978564997199, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -6986548362478639795, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6986548362478639795, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -6918835175069847138, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6918835175069847138, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -6811721470681955599, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6811721470681955599, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -6784368074956317596, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6784368074956317596, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -6736630137509232346, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6736630137509232346, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -6626041328172344913, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6626041328172344913, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -6586932958375166336, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6586932958375166336, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -6451755322242248256, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6451755322242248256, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -6326584088920341875, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6326584088920341875, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -6114292977543093322, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6114292977543093322, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -5953269988048277158, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5953269988048277158, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -5845592647243828960, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5845592647243828960, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -5581886209364893113, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5581886209364893113, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -5497664573811459018, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5497664573811459018, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -5479956795820052866, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5479956795820052866, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -5452980534900007745, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5452980534900007745, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -5337868952779388686, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5337868952779388686, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -5112549833308057469, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5112549833308057469, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -5053700108997361521, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5053700108997361521, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -4920862077158939827, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4920862077158939827, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -4692343861732393602, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4692343861732393602, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -4670700979642906516, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4670700979642906516, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -4557504727310381068, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4557504727310381068, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -4134202985933311080, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4134202985933311080, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.001
@@ -531,7 +630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.604
+      value: 0.966
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
       propertyPath: m_LocalPosition.z
@@ -568,6 +667,770 @@ PrefabInstance:
     - target: {fileID: -3910990755373119420, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3864984674726902767, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3864984674726902767, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -3742914760637653734, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3742914760637653734, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -3666498102875068513, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3666498102875068513, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -3647042272253197664, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3647042272253197664, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -3407762403498077782, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3407762403498077782, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -3330855754301171393, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3330855754301171393, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -3105316317449156420, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3105316317449156420, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -2693333217316853241, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2693333217316853241, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -2631889832826370690, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4855638414264437767, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+    - target: {fileID: -2591104636097169492, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2591104636097169492, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -2521319176619646460, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2521319176619646460, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -2398332736095117562, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2398332736095117562, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -2365161041763881472, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2365161041763881472, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -2298362481581730818, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2298362481581730818, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -2159674918855145766, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2159674918855145766, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -1905506268629669563, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1905506268629669563, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -1853833675560850164, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1853833675560850164, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -1500707915380586948, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1500707915380586948, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -1480653392917599678, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1480653392917599678, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -1475278853937383594, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1475278853937383594, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -1328074901655561659, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1328074901655561659, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -1314716090226703851, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1314716090226703851, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -798718902425590576, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -798718902425590576, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -688165084693956582, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -688165084693956582, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -661142256057150086, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -661142256057150086, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -619697232101220541, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -619697232101220541, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -592946271091856153, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -592946271091856153, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -351687855129452268, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -351687855129452268, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -319668806854793466, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -319668806854793466, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: -237706376785294677, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -237706376785294677, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -222983111207719804, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -222983111207719804, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: -103601806863529733, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -103601806863529733, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: -46744769739498503, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -46744769739498503, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 229419900078321941, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 229419900078321941, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 382030923652706411, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 382030923652706411, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 563479423251853905, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 563479423251853905, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 644035848939195725, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 644035848939195725, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 718957246851375268, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 718957246851375268, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 933825371454423022, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 933825371454423022, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 965200584392437315, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 965200584392437315, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030076066110413317, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030076066110413317, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 1197720497587595590, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1197720497587595590, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 1336638910982481145, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1336638910982481145, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454570853723416559, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1454570853723416559, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537075437990951974, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537075437990951974, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799586439086165775, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799586439086165775, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969506338661983130, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969506338661983130, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 2281828097430618183, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2281828097430618183, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323011092350507094, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323011092350507094, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328347033618953471, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328347033618953471, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594641860347054574, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594641860347054574, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 2950859942112174841, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2950859942112174841, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 3013455217963530714, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3013455217963530714, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 3029222115121169052, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3029222115121169052, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201548954501012427, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201548954501012427, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 3298043231676791188, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3298043231676791188, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400709015607383508, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400709015607383508, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436787651024902030, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3436787651024902030, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 3518136276019394088, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3518136276019394088, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653964648786116311, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653964648786116311, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775369142022139350, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775369142022139350, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795673449052201047, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795673449052201047, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824311514755806946, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824311514755806946, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044400832527079561, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044400832527079561, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200481250439326350, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200481250439326350, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383230192651218831, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383230192651218831, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 4598929866076450651, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4598929866076450651, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 4611568654999304503, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4611568654999304503, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703952287055583946, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703952287055583946, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705688110631127076, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705688110631127076, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930487597466451510, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930487597466451510, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148941204274880115, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148941204274880115, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355055819794456511, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355055819794456511, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583724648380802107, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583724648380802107, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618521855337443329, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618521855337443329, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 5694661939349808802, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5694661939349808802, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823645241148234737, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823645241148234737, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 6037757354499730329, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6037757354499730329, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260551257981138608, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260551257981138608, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401191925408958159, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401191925408958159, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439276075882754598, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439276075882754598, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 6508593038584354307, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6508593038584354307, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687448091950872221, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687448091950872221, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 6867050727195279037, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6867050727195279037, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 6938023058762485313, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6938023058762485313, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109581377839839995, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109581377839839995, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 7207978391484149174, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7207978391484149174, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256912186336492649, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256912186336492649, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373854633181313157, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373854633181313157, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617376575258259777, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617376575258259777, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710511844389132161, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710511844389132161, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765112882632990876, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765112882632990876, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 7795705104236074303, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7795705104236074303, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: BloodVessels
+      objectReference: {fileID: 0}
+    - target: {fileID: 8210993322675165275, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8210993322675165275, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647271285710099730, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647271285710099730, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Organs
+      objectReference: {fileID: 0}
+    - target: {fileID: 8681405676858635745, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8681405676858635745, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
+      propertyPath: m_TagString
+      value: Bones
       objectReference: {fileID: 0}
     - target: {fileID: 8771091787928289351, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
       propertyPath: m_Name
