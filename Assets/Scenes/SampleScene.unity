@@ -441,7 +441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973a80d3a6578b439d9e40632622dc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fullscript: {fileID: 0}
+  fullscript: {fileID: 789115174}
 --- !u!114 &183149111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60b73f987e54a1646997aa2c540be316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  organscript: {fileID: 0}
+  organscript: {fileID: 789115174}
 --- !u!114 &274760786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2514,6 +2514,17 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 100
   m_Center: {x: 35.911694, y: 167.22374, z: 33.950806}
+--- !u!114 &789115174 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5907585577127087832, guid: 56d16aac2355e8f47a3cb7d6b7303db9, type: 3}
+  m_PrefabInstance: {fileID: 2126479878}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670c2dbdbc85ee0429702b1d8285c2bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1177112190
 GameObject:
   m_ObjectHideFlags: 0
@@ -3126,7 +3137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ef2e4cdc0d53aa419377a65a26c2285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloodscript: {fileID: 0}
+  bloodscript: {fileID: 789115174}
 --- !u!114 &1320061346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4025,7 +4036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ff05e0fbde3524798fa7e204bf1b2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonscript: {fileID: 0}
+  skeletonscript: {fileID: 789115174}
 --- !u!1 &1669754788
 GameObject:
   m_ObjectHideFlags: 0
