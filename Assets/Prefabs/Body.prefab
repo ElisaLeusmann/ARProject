@@ -75,6 +75,7 @@ MonoBehaviour:
   b_skeleton: {fileID: 0}
   b_organs: {fileID: 0}
   b_blood: {fileID: 0}
+  b_heart: {fileID: 0}
   b_full: {fileID: 0}
 --- !u!114 &5618789934090160625
 MonoBehaviour:
@@ -547,7 +548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3407762403498077782, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
       propertyPath: m_TagString
-      value: Organs
+      value: Heart
       objectReference: {fileID: 0}
     - target: {fileID: -3330855754301171393, guid: 496ac84da3041564291a0c43df6cb488, type: 3}
       propertyPath: m_IsActive

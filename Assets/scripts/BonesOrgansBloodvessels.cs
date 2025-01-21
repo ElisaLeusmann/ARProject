@@ -9,6 +9,7 @@ public class BonesOrgansBloodvessels : MonoBehaviour
     public GameObject b_skeleton;
     public GameObject b_organs;
     public GameObject b_blood;
+    public GameObject b_heart;
     public GameObject b_full;
 
     public void Start()
@@ -69,6 +70,18 @@ public class BonesOrgansBloodvessels : MonoBehaviour
             Debug.LogError("GameObject mit b_blood_script nicht gefunden (auch nicht inaktive)!");
         }
 
+
+        b_heart_script heartscript = (b_heart_script)FindObjectOfType(typeof(b_heart_script), true);
+        if (heartscript != null)
+        {
+            b_heart = heartscript.gameObject;
+            Debug.Log("lalala " + b_heart.name);
+        }
+        else
+        {
+            Debug.LogError("GameObject mit b_heart_script nicht gefunden (auch nicht inaktive)!");
+        }
+
         b_full_script fullScript = (b_full_script)FindObjectOfType(typeof(b_full_script), true);
         if (fullScript != null)
         {
@@ -97,7 +110,7 @@ public class BonesOrgansBloodvessels : MonoBehaviour
             {
                 child.gameObject.SetActive(true);
             }
-            else if (child.CompareTag("Organs") || child.CompareTag("BloodVessels"))
+            else if (child.CompareTag("Heart") ||child.CompareTag("Organs") || child.CompareTag("BloodVessels"))
             {
                 child.gameObject.SetActive(false);
             }
@@ -111,12 +124,30 @@ public class BonesOrgansBloodvessels : MonoBehaviour
         Transform[] children = gameObject.GetComponentsInChildren<Transform>(true);
         foreach (Transform child in children)
         {
-            if (child.CompareTag("Organs"))
+            if (child.CompareTag("Organs") || child.CompareTag("Heart"))
             {
                 child.gameObject.SetActive(true);
                 Debug.Log("in organs");
             }
             else if (child.CompareTag("Bones") || child.CompareTag("BloodVessels"))
+            {
+                child.gameObject.SetActive(false);
+            }
+        }
+    }
+        public void ShowOnlyHeart()
+    {
+        Debug.Log("click heart");
+        // Get all children with the "Bones" tag within the prefab including inactive ones
+        Transform[] children = gameObject.GetComponentsInChildren<Transform>(true);
+        foreach (Transform child in children)
+        {
+            if (child.CompareTag("Heart"))
+            {
+                child.gameObject.SetActive(true);
+                Debug.Log("in heart");
+            }
+            else if (child.CompareTag("Bones") || child.CompareTag("BloodVessels")|| child.CompareTag("Organs"))
             {
                 child.gameObject.SetActive(false);
             }
@@ -134,7 +165,7 @@ public class BonesOrgansBloodvessels : MonoBehaviour
             {
                 child.gameObject.SetActive(true);
             }
-            else if (child.CompareTag("Organs") || child.CompareTag("Bones"))
+            else if (child.CompareTag("Heart") ||child.CompareTag("Organs") || child.CompareTag("Bones"))
             {
                 child.gameObject.SetActive(false);
             }
@@ -178,6 +209,11 @@ public class BonesOrgansBloodvessels : MonoBehaviour
         if (b_full != null)
         {
             b_full.SetActive(true);
+
+        }
+        if (b_heart != null)
+        {
+            b_heart.SetActive(true);
 
         }
     }
