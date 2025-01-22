@@ -54,7 +54,7 @@ public class HeartPopup : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Popup UI is not assigned.");
+            Debug.LogWarning("Popup is not assigned.");
         }
     }
 
